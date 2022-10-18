@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signup">
+
+
+    <LinearLayout
+        android:id="@+id/ggg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        tools:layout_editor_absoluteX="٢٠٦dp"
+        tools:layout_editor_absoluteY="٠dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:text="Login"
+            android:textColor="#6dffbf"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Emaill"
+            android:textColor="#111" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="#111" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="25dp">
+
+            <Button
+                android:id="@+id/Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="login" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/Sing_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:insetLeft="125dp"
+            android:text="Sing up" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:insetTop="80dp"
+            android:text="Button" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
